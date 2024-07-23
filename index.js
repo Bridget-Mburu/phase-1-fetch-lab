@@ -1,6 +1,6 @@
 function fetchBooks() {
   const URL = "https://anapioficeandfire.com/api/books"
-  return fetch(URL,{
+  fetch(URL,{
     method: 'GET',
     header:{},
   })
